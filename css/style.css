@@ -63,6 +63,7 @@ background: rgb(0, 0, 0);
  align-items: center;
  justify-content:space-around;
  }
+
  .finance-main h1{    
    
     color: rgb(0, 0, 0);    
@@ -93,3 +94,71 @@ margin: 0px 0px 20px 0px;
     font-weight: 700; 
 background: rgb(0, 0, 0);
  }
+ 
+
+#best-finance{
+    background-color: rgb(252, 229, 244);
+    width: 90%;
+    margin: 0 auto;
+}
+.best-finance{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.best-finance-text{
+  margin: 70px 10px 0px 0px;
+
+}
+.best-finance p{
+    margin: 30px 0px;
+}
+.best-finance h1{
+    color: rgb(0, 0, 0);
+font-size: 57px;
+font-weight: 700;
+}
+.best-finance p{   
+font-size: 16px;
+font-weight: 400;
+}
+
+.text h1{
+    color: rgb(0, 0, 0);
+font-size: 58px;
+font-weight: 700;
+}
+.switch{
+    background-color: rgb(252, 229, 244);  
+}
+.text h1{
+    padding: 0px 50px;
+}
+.switch-block h2{
+    color: rgb(0, 0, 0);
+font-size: 28px;
+font-weight: 700;
+}
+.switch-block p{   
+font-size: 16px;
+font-weight: 400;
+}
+
+.switch-block{   
+        width: 300px;
+        height: 360px;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgb(245, 207, 232);
+        backdrop-filter: blur(100px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        margin: 50px 50px;
+
+}
+.block1 h2{
+    padding: 10px;
+}
