@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;   
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+   
+}
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 400;
+}
+#header{
+    margin: 30px 0px;
+}
+.header-right {
+    display: flex;
+    list-style: none; 
+    gap: 20px;
+}
+
+.button1{
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+font-size: 18px;
+font-weight: 700;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 100px;
+
+}
+.button2{
+    width: 180px;
+    height: 50px;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);   
+    font-size: 18px;
+    font-weight: 700;   
+background: rgb(0, 0, 0);
+}
+#finance{
+    background-color: rgb(252, 229, 244);
+    width: 90%;
+    margin: 0 auto;
+}
+.block-finance {
+ display: flex;
+ align-items: center;
+ justify-content:space-around;
+ }
+ .finance-main h1{    
+   
+    color: rgb(0, 0, 0);    
+    font-size: 77px;
+    font-weight: 700;   
+ }
+ .finance-main p{
+    color: rgb(0, 0, 0);    
+    font-size: 16px;
+    font-weight: 400;
+    margin: 40px 0px;
+
+ }
+ .finance-main h3{
+    color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+margin: 0px 0px 20px 0px;
+
+ }
+ .finance-main button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);    
+    font-size: 22px;
+    font-weight: 700; 
+background: rgb(0, 0, 0);
+ }
