@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;  
+ 
 }
 .container{
     width: 90%;
     margin: 0 auto;
+
 }
 .block{
     display: flex;
@@ -57,6 +59,7 @@ background: rgb(0, 0, 0);
     background-color: rgb(252, 229, 244);
     width: 90%;
     margin: 0 auto;
+
 }
 .block-finance {
  display: flex;
@@ -97,7 +100,7 @@ background: rgb(0, 0, 0);
  
 
 #best-finance{
-    background-color: rgb(252, 229, 244);
+   
     width: 90%;
     margin: 0 auto;
 }
@@ -129,9 +132,7 @@ font-weight: 400;
 font-size: 58px;
 font-weight: 700;
 }
-.switch{
-    background-color: rgb(252, 229, 244);  
-}
+
 .text h1{
     padding: 0px 50px;
 }
@@ -139,26 +140,96 @@ font-weight: 700;
     color: rgb(0, 0, 0);
 font-size: 28px;
 font-weight: 700;
+
 }
 .switch-block p{   
 font-size: 16px;
 font-weight: 400;
 }
 
-.switch-block{   
+.block1{   
         width: 300px;
         height: 360px;
         border-radius: 10px;
         padding: 10px;
-        background-color: rgb(245, 207, 232);
+        background-color: rgb(210, 224, 245);
         backdrop-filter: blur(100px);
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         justify-content: end;
         margin: 50px 50px;
 
 }
+.switch-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .block1 h2{
     padding: 10px;
+}
+.btn button{ 
+    
+    color: rgb(0, 0, 0);  
+    font-size: 18px;
+    font-weight: 700;   
+width: 235px;
+height: 50px;
+margin: 30px;
+border-radius: 100px;
+background: rgb(210, 224, 245);
+}
+.block2{
+
+    width: 300px;
+    height: 360px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(245, 207, 232);
+    backdrop-filter: blur(100px);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 10px;  
+}
+.block2 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 290px;
+}
+.block2 h2{
+    color: rgb(0, 0, 0);
+font-size: 28px;
+font-weight: 700;
+padding: 10px;
+}
+.block2 p{
+    color: rgb(0, 0, 0);   
+    font-size: 16px;
+    font-weight: 400;  
+}
+.itself-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text h1{
+    margin: 90px 0px;
+}
+
+.join-text h1{
+    color: rgb(0, 0, 0);
+font-size: 27px;
+font-weight: 400;
+}
+
+.join{
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+      
+    
 }
