@@ -229,7 +229,42 @@ font-weight: 400;
 .join{
   display: flex;  
   align-items: center;
-  justify-content: space-between;
-      
+  justify-content: space-between;      
     
+}
+.frame{
+    margin: 50px 50px;
+}
+.join-text h1{
+   padding: 10px;
+}
+
+.amazing-text h1{
+    color: rgb(0, 0, 0);
+font-size: 27px;
+font-weight: 400;
+}
+.amazing-block{
+    display: flex;
+    align-items: center;
+    
+      
+}
+.amazing-frame{
+    display: flex;
+    align-items: start;
+    flex-direction: column;        
+    justify-content: center;
+   margin: 50px 0px;
+}
+.amazing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ padding: 10px;
+}
+.hub-text{
+    display: flex;
+    align-items: center;
+   
 }
